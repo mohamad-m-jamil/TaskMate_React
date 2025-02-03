@@ -1,0 +1,76 @@
+.bood{
+  display: flex;
+  margin: 50px;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.bood1{
+  margin: 30px;
+  padding: 30px;
+  border: solid 2px white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.bood2{
+  margin: 30px;
+  padding: 30px;
+  border: solid 2px white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.bood ul{
+  width: 310px;
+  overflow-wrap: break-word;
+  position: relative;
+  list-style-type: none;
+}
+.bood ul li::before {
+  content: "📢";
+  position: absolute;
+  left: 15px;
+}
+.string{
+  padding-right:6px;
+}
+.click{
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+}
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #4adb34;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #4adb34;
+  box-shadow: 0px 0px 8px rgba(52, 152, 219, 0.5);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4adb34;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3fa32f;
+}
+
+button:active {
+  background-color: #1c6ea4;
+  transform: scale(0.98);
+}
